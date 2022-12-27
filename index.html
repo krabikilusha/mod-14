@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Модуль 14</title>
+    <link rel="fonts" href="css/fonts and media.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    
+</head>
+<body>
+    <div class="head">
+        <div class="cont">
+            <div class="row">
+                <div class="text_head">SPA-комплекс</div>
+                <div class="tel">Записаться: +7(999)123-45-67</div>
+                <a href="#" class="open-popup">Авторизоваться</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <p>Услуги</p>
+        <section class="main_card">
+
+            <div class="wrap wrap--1">
+              <div class="container container--1">
+                <p>Бассейн</p>
+                <a href="#"></a>
+              </div>
+            </div>
+          
+            <div class="wrap wrap--2">
+              <div class="container container--2">
+                <p>Бани</p>
+                <a href="#"></a>
+              </div>
+            </div>
+          
+            <div class="wrap wrap--3">
+              <div class="container container--3">
+                <p>Массаж</p>
+                <a href="#"></a>
+              </div>
+            </div>
+          
+          </section>
+    </div>
+
+
+    <div class="footer">
+        <div class="cont">
+            <div class="footer_inner">
+                <div class="actions">
+                    Скидка 20% ввыдаётся на посещение ко дню рождения и годовщине
+                </div>
+                <div class="actions_1">НЕ УПУСТИТЕ ШАНС ВОСПОЛЬЗОВАТЬСЯ 25% СКИДКОЙ ПРЯМО СЕЙЧАС >>>>>>><button href="#">СКИДКА!</button><div id="app"></div></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<div class="popup_bg">
+    <form class="popup" action="assets/php/functions.php" method="POST">
+        <img src="assets/img/close.png" alt="" class="close-popup">
+        <h4>Авторизация</h4>
+        <!--. 3. Форма входа на сайт-->
+        <form action="/login.php" method="post">
+            Логин: <input type="text" name="login">
+            Пароль: <input type="password" name="password">
+            <button type="submit">Войти</button>
+        </form>
+        <p>Введите логин и пароль</p>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/popups.js"></script>
+<script src="assets/js/card.js"></script>
+<script src="assets/js/sign.js"></script>
+<script src="assets/js/time.js"></script>
+</html>
